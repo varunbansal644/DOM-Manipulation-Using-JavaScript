@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>   
+   <title>Selectors in Javascript</title>   
+</head>
+<body>
+   <h1>Hello this is a sample web page</h1>       
+       <p class="customPara">This is the HTML first paragraph</p>
+       <p class="customPara">This is the HTML second paragraph</p>
+<script>
+        document.getElementsByTagName('h1')[0].innerText='Hello this is my JavaScript page';
+        document.getElementsByClassName('customPara')[0].innerText='This is the JavaScript first paragraph';
+        document.getElementsByClassName('customPara')[1].innerText='This is the JavaScript second paragraph';           
+</script>
+</body>
+ </html>
